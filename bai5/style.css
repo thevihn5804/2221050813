@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+}
+
+.danhmuc {
+    background-color: #2fa4e7;
+    padding: 20px;
+}
+
+.danhmuc-danhsach {
+    display: flex;
+    list-style: none;
+    gap: 20px;
+}
+
+.danhmuc-muc{
+    margin: 10px;
+}
+
+.danhmuc-lienket {
+    color: white;
+    text-decoration: none;
+    font-size: large;
+}
+
+.danhmuc-lienket:hover {
+    color: grey;
+}
+
+.logo{
+    height: 20px;
+    background-color: grey;
+}
+
+main{
+    display: flex;
+}
+
+.noidung-left{
+    width: 80%;
+    border-radius: 10px;
+}
+
+.noidung-right{
+    height: 1000px;
+    background-color: aquamarine;
+    width: 20%;
+}
+
+.tieude{
+    background-color: #2fa4e7;
+    color: white;
+    padding: 20px;
+    font-size: large;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.tintuc-danhsach{
+    display: flex;
+    justify-content: space-between;
+}
+
+.baiviet{
+    height: 200px;
+    background-color: antiquewhite;
+    width: 32%;
+    padding-bottom: 0%;
+}
+
+.baiviet-ngaygio{
+    padding-left: 60%;
+    background-color: lightblue;
+}
+
+.baiviet-anh img{
+    width: 150px;
+    height: 150px;
+    padding-left: 25%;
+}
+
+.baiviet-noidung {
+    background-color: lightblue;
+    color: white;
+}
