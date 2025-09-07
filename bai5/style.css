@@ -1,3 +1,16 @@
+.Footer{
+    background-color: #2fa4e7;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 0 0 10px 10px;
+}
+.New{
+    height: 20px;
+    width: 30px;
+}
 body {
     margin: 0;
 }
@@ -85,4 +98,204 @@ main{
 .baiviet-noidung {
     background-color: lightblue;
     color: white;
+}
+.Footer{
+    background-color: #2fa4e7;
+    align-items: center;
+    text-align: center;
+    color: white;
+    margin-left: 5px;
+    margin-right: 5px;
+    border-radius: 0 0 10px 10px;
+}
+.New{
+    height: 20px;
+    width: 30px;
+}
+body{
+    margin: 0px;
+    
+}
+ul{
+    margin: 0px;
+}
+.DanhMuc{
+    background-color: #2fa4e7;
+    padding: 20px;
+}
+.DanhMuc-DanhSach{
+    display: flex;
+    list-style: none; /*dùng để xóa dấu chấm của thẻ list */  
+}
+.DanhMuc_Muc{
+    margin: 10px;
+}
+.DanhMuc_LienKet{
+    color: white;
+    text-decoration: none;
+    font-size: x-large  ;
+    font-weight: bold;
+}
+.DanhMuc_LienKet:hover{
+    color: gray;
+}
+main{
+    display: flex;
+    background-color: white;
+}
+.NoiDung_Trai{
+    width: 80%;
+    border-radius: 10px;
+    background-color: lightgrey;
+}
+.NoiDung_Phai{
+    background-color: aquamarine;
+    height: 1000px;
+    width: 20%;
+}
+.TieuDe{
+    background-color: #2fa4e7;
+    padding: 20px;
+    color: white;
+    font-size: x-large;
+    font-weight: bold;
+    border-radius: 10px 10px 0px 0px;
+}
+.TinTuc{
+    padding-bottom: 10px;
+}
+.TinTuc_DanhSach{
+    display: flex;
+    justify-content: space-between;
+}
+.BaiViet{
+    height: auto;
+    background-color: white;
+    width: 32%;
+    justify-content: center;
+}
+.BaiViet_TieuDe{
+    height: 10%;
+    text-align: end;
+    background-color: lightskyblue;
+}
+.BaiViet_Anh{
+    min-height: 70%;
+}
+.BaiViet_Anh img{
+    width: 100%;
+    height: 150px;
+}
+.BaiViet_NoiDung{
+    background-color: lightskyblue;
+    margin: 0;
+    padding: 0;
+}
+.ThongBao{
+    padding-bottom: 30px;
+    background-color: white;
+}
+.ThongBao_DanhSach{
+    display: flex;
+    justify-content: space-between;
+}
+.ThongBao_Trai{
+    width: 30%;
+    padding: 10px;
+}
+.ThongBao_Trai_Logo img{
+    height: 210px;
+    width: 100%;
+}
+.ThongBao_Trai_ThoiGian{
+    text-align: end;
+}
+.ThongBao_Trai_NoiDung{
+    color: blue;
+    font-weight: bold;
+    font-size: large;
+}
+.ThongBao_Phai{
+    width: 70%;
+}
+.ThongBao_Phai table{
+    width: 100%;
+}
+.HuongDan{
+    padding: 20px;
+    background-color: white;
+}
+.HuongDan_NoiDung_Trong{
+    width: 100%;
+}
+.ThongBao_Phai_ThoiGian{
+    text-align: end;
+    color: grey;
+}
+.HuongDan_NoiDung_Trong table{
+    width: 100%;
+}
+.NoiDung_Phai{
+    padding-left: 10px;
+    background-color: white;
+}
+.Login{
+    padding: 15px;
+}
+.Login form{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+.User_Icon{
+    background-color: lightgray;
+    font-size: x-large; 
+    padding: 5px 3px;
+}
+#Email_Box input{
+    align-items: center;
+    padding: 6px;
+}
+.Lock_Icon{
+    background-color: lightgray;
+    font-size: x-large;
+    padding: 5px 3px; 
+}
+#Password_Box input{
+    align-items: center;
+    padding-top: 12px;
+}
+.Eye_Icon{
+    background-color: lightgray;
+    font-size: x-large; 
+    padding: 5px 3px;
+}
+.ForgetPassword a{
+    text-decoration: none;
+    font-style: italic;
+    color: #2fa4e7;
+    padding-left: 60%;
+}
+.Submit input{
+    background-color: #2fa4e7;
+    color: white;
+padding: 5px 5px 10px 10px;
+    width: 100%;
+    font-weight: bold;
+    font-size: larger;
+}
+
+.Microsoft input{
+    background-color: blue;
+    color: white;
+    padding: 5px 5px 10px 10px;
+    width: 100%;
+    font-weight: bold;
+    font-size: larger;
+}
+.Qr_AppStore{
+    padding-left: 40px;
+}
+.Qr_GooglePlay{
+    padding-left: 40px;
 }
