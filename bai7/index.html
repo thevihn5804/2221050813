@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <script>
+        document.writeln("toi la " + "<br>");
+        // de khai bao bien trong js dung let hoac var
+        // Cu phap : let(var) tenBien = Gia tri;
+        // De noi chuoi js dung dau + 
+        let fullName = "Nguyen The Vinh" + "<br>";
+
+        document.writeln(fullName);
+
+        // Cong 2 so 
+        let a = 10;
+        let b = "5";
+        let ketQua = true;
+
+        //ketQua1 = a + b;
+        //ketQua2 = a - b;
+        //ketQua3 = a * b;
+        //ketQua4 = a / b;
+
+        // Tang 1: ++
+        // Giam 1: --
+        //document.writeln(++ketQua1);
+        //document.writeln(--ketQua2);
+        //document.writeln(++ketQua3);
+        //document.writeln(++ketQua4);
+
+        //a +=b;
+        //document.writeln(a)
+
+        // == bang 
+        // != khac
+        // === bang gia tri nhung so sanh kieu du lieu
+        // !== khac gia tri nhung so sanh kieu du lieu
+        //document.writeln(!ketQua);
+        
+        // cac kieu du lieu trong Js
+        let id = {
+            name : "Nguyen The Vinh",
+            msv : "2221050813",
+            gioiTinh : true,
+            age : 21,
+            lop: "Tin kinh te_K67A",
+            address: {
+                 tinh : "Ha Nam",
+                phuong : "Ly Thuong Kiet",
+                soNha: 111
+            }
+        }
+
+        let addressVinh = {
+            tinh : "Ha Nam",
+            phuong : "Ly Thuong Kiet",
+            soNha: 111
+        }
+
+        id.address = addressVinh;
+        document.writeln("Xin chao:" + id.name + " " + id.age + "tuoi" + "<br>");
+        document.writeln("Song o Tinh  " + id.address.tinh + " <br> Phuong " + id.address.phuong + "<br> so nha " + id.address.soNha);
+
+        let hienTai = 2025;
+        document.writeln("<br> Ban:" + id.name + "<br> sinh : " + (hienTai - id.age) )
+
+    </script>
+</body>
+</html>
