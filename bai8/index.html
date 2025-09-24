@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        let thongTinDonHang = {
+            maDonHang: "12345",
+            thongTinKhachHang:{
+                hoTen: "TheVinh",
+                sdt: "0989232668",
+                trangThai: true,
+            },  
+            danhSachSanPham: {
+                sp1: {
+                    maSanPham: "1",
+                    tenSanPham: "IP 14PRM",
+                    soLuong: 10,
+                    giaTien: "10000",
+                },
+                sp2: {
+                    maSanPham: "2",
+                    tenSanPham: "IP 15PRM",
+                    soLuong: 10,
+                    giaTien: "20000",
+                },
+                sp3: {
+                    maSanPham: "3",
+                    tenSanPham: "IP 16PRM",
+                    soLuong: 10,
+                    giaTien: "30000",
+                },
+                sp1: {
+                    maSanPham: "4",
+                    tenSanPham: "IP 17PRM",
+                    soLuong: 10,
+                    giaTien: "40000",
+                }
+            },
+            thanhToanThanhCong: true,
+            diaChi: "Bac Tu Liem"
+        }
+        let tongTien1 =  thongTinDonHang.danhSachSanPham.sp1.giaTien * thongTinDonHang.danhSachSanPham.sp1.soLuong
+        let tongTien2 =  thongTinDonHang.danhSachSanPham.sp2.giaTien * thongTinDonHang.danhSachSanPham.sp2.soLuong
+        let tongTien3 =  thongTinDonHang.danhSachSanPham.sp3.giaTien * thongTinDonHang.danhSachSanPham.sp3.soLuong
+        let tongTien4 =  thongTinDonHang.danhSachSanPham.sp4.giaTien * thongTinDonHang.danhSachSanPham.sp4.soLuong
+
+        let tongTien = tongTien1 + tongTien2 + tongTien3 + tongTien4;
+        document.writeln("Tong tien don hang =" + tongTien);
+
+        // su dung [n] de in ra ky tu o vi tri thu n+1
+        let myString = "Nguyen The Vinh";
+        document.writeln(myString[4]);
+
+        // dung slice(a, b) de in ra ky tu tu vi tri a den b-1
+        let myName = "Nguyen Van A";
+        document.writeln(myName.slice(1,4));
+
+        // dung replace("Chuoi 1", "Chuoi 2") de thay chuoi 1 thanh chuoi 2
+        let name3 = "Nguyen The Vinh";
+        document.writeln(name3.replace("Nguyen", "Truong"));
+
+        // dung (tenbien.toLowerCase()) de chuyen chu hoa thanh chu thuong 
+        // dung (tenbien.toUpperCase()) de chuyen chu thuong thanh chu hoa
+        document.writeln(name3.toLowerCase());
+
+        // dung de tra ra vi tri xuat hien dau tien cua ky tu
+        // neu ko thi tra ra -1
+        document.writeln(name3.indexOf('e'));
+
+        // dung includes de kiem tra trong chuoi co ky tu can tim hay khong
+        document.writeln(name3.includes('n'));
+
+        // dung split de tach chuoi thanh mang
+        document.writeln(name3.split(''))
+
+        // Kiem tra trong chuoi co bat dau bang ky tu nao khong
+        let danhSach = ["a","Pham","c","d"]
+        document.writeln(danhSach[1].startsWith("Pham"));
+
+        // dung typeof de chuyen doi chuoi ve so
+        let so = "123";
+        document.writeln(typeof(so));
+        document.writeln(typeof(Number(so)));
+
+        // toFixed() de dinh dang so voi so chu so thap phan nhat dinh
+        let pi=Math.PI;
+        pi = pi.toFixed(3);
+        document.writeln(pi);
+
+        // Dung isNan() de kiem tra do co gia tri Nan(not a number) khong
+        let b = isNaN(NaN);
+        document.writeln(b);
+        // dung isFinite() kiem tra xem do co phai so huu han hay khong
+        let c = isFinite(10);
+        document.writeln(c);
+
+        //Date
+        // lya nam thang ngay thu
+        let toDay = new Date();
+        document.writeln(toDay.getFullYear());
+        document.writeln(toDay.getMonth());
+        document.writeln(toDay.getDate());
+        document.writeln(toDay.getDay());
+        // Lay gio giay phut
+        document.writeln(toDay.getHours());
+        document.writeln(toDay.getMinutes());
+        document.writeln(toDay.getSeconds());
+    </script>
+</body>
+</html>
